@@ -301,8 +301,13 @@ transform: translateY(0);
 }
 
 .portfolio-layer a i{
-    font-size: 3rem;
-    color: var(--send-bg-color);
+    font-size: 2.8rem;
+    color: var(--main-color);
+}
+
+.portfolio-link{
+    display: inline-flex;
+    gap: 2rem;
 }
 
 .footer{
