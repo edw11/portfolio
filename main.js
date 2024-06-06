@@ -35,7 +35,7 @@ window.onscroll = () =>{
 }
 /*======================================remove toggle navbar====================*/
 ScrollReveal({
-    distance: '150px',
+    distance: '10px',
     duration: 2000,
     delay: 0
 })
@@ -44,6 +44,8 @@ ScrollReveal().reveal('.home-content , heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box', { origin:'button'});
 ScrollReveal().reveal('.about-img', { origin:'left' });
 ScrollReveal().reveal('.about-content', { origin:'right' });
+
+
 
 
 
