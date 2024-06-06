@@ -35,17 +35,15 @@ window.onscroll = () =>{
 }
 /*======================================remove toggle navbar====================*/
 ScrollReveal({
-    distance: '80px',
+    distance: '150px',
     duration: 2000,
     delay: 0
 })
 
-ScrollReveal().reveal('.home-content, .heading, .home-img, .services-container, .portfolio-box, .about-img, .about-content', { origin: 'top', delay: 0 });
-
-// ScrollReveal().reveal('.home-content , heading', { origin: 'top' });
-// ScrollReveal().reveal('.home-img, .services-container, .portfolio-box', { origin:'button'});
-// ScrollReveal().reveal('.about-img', { origin:'left' });
-// ScrollReveal().reveal('.about-content', { origin:'right' });
+ScrollReveal().reveal('.home-content , heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box', { origin:'button'});
+ScrollReveal().reveal('.about-img', { origin:'left' });
+ScrollReveal().reveal('.about-content', { origin:'right' });
 
 
 
