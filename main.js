@@ -34,11 +34,13 @@ window.onscroll = () =>{
     navbar.classList.remove('active')
 }
 /*======================================remove toggle navbar====================*/
-// ScrollReveal({
-//     distance: '80px',
-//     duration: 2000,
-//     delay: 0
-// })
+ScrollReveal({
+    distance: '80px',
+    duration: 2000,
+    delay: 0
+})
+
+ScrollReveal().reveal('.home-content, .heading, .home-img, .services-container, .portfolio-box, .about-img, .about-content', { origin: 'top', delay: 0 });
 
 // ScrollReveal().reveal('.home-content , heading', { origin: 'top' });
 // ScrollReveal().reveal('.home-img, .services-container, .portfolio-box', { origin:'button'});
